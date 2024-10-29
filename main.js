@@ -112,6 +112,8 @@ function updateSongInfo() {
 song.addEventListener("loadedmetadata", function () {
   progress.max = song.duration;
   progress.value = song.currentTime;
+  console.log("sdflasdfja");
+  
 });
 
 song.addEventListener("ended", function () {
@@ -139,6 +141,7 @@ function playPause() {
     pauseRotation();
   }
 }
+console.log("werweri");
 
 playPauseButton.addEventListener("click", playPause);
 
@@ -165,8 +168,6 @@ backwardButton.addEventListener("click", function () {
   playPause();
 });
 
-updateSongInfo();
-
 var swiper = new Swiper(".swiper", {
   effect: "coverflow",
   grabCursor: true,
@@ -190,3 +191,5 @@ var swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
 });
+
+console.log("new");
