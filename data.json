@@ -3,37 +3,43 @@
     "id": "1",
     "image": "",
     "singer": "sara esam",
-    "name": "What's The Problem?"
+    "name": "What's The Problem?",
+    "liked": "false"
   },
   {
     "id": "1",
     "image": "images/album-cover.png",
     "singer": "keni vellian",
-    "name": "dance"
+    "name": "dance",
+    "liked": "true"
   },
   {
     "id": "1",
     "image": "images/234237498237v-2334-23-4-234-.png",
     "singer": "alias em",
-    "name": "jesti aleno beia"
+    "name": "jesti aleno beia",
+    "liked": "false"
   },
   {
     "id": "1",
     "image": "images/album-sirwekrk2342432498273482934.png",
     "singer": "hippo",
     "name": "love you",
-    "like":"false"
+    "like": "false",
+    "liked": "true"
   },
   {
     "id": "1",
     "image": "images/album-cover.png",
     "singer": "mirrena lonaegh",
-    "name": "new story"
+    "name": "new story",
+    "liked": "true"
   },
   {
     "id": "1",
     "image": "images/3423749238747329847237v.jpeg",
     "singer": "anna hermon",
-    "name": "that night"
+    "name": "that night",
+    "liked": "true"
   }
 ]
